@@ -11,7 +11,7 @@ router.get('/', homeController.home);
 
 router.use('/users',require('./users'));
 
-router.use('/posts',require('./posts'));
+router.use('/posts',require('./users'));
 
 // test 
 // router.get('/about', homeController.about);
