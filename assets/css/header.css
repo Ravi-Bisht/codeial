@@ -1,0 +1,19 @@
+#header {
+  display: flex;
+  background-color: #3838b0;
+  justify-content: space-between; }
+  #header #header-left {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 0.7rem;
+    color: white; }
+  #header #header-right {
+    display: flex;
+    list-style: none;
+    margin-right: 1rem; }
+    #header #header-right li {
+      margin-left: 1rem; }
+      #header #header-right li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem; }
